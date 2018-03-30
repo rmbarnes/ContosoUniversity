@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: 'Maitree', serif;
 }
 
 /* Wrapping element */
@@ -24,6 +25,34 @@
 /* QR code generator */
 #qrCode {
     margin: 15px;
+}
+
+.jumbotron {
+    background-color: #c95;
+    border: 2px solid #953;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: 1px solid #c95;
+}
+
+.table > thead > tr > th {
+    border-bottom: 2px solid #c95;
+}
+
+hr {
+    border-top: 1px solid #953;
+}
+
+.table > thead > tr > td.success, .table > tbody > tr > td.success, .table > tfoot > tr > td.success, .table > thead > tr > th.success, .table > tbody > tr > th.success, .table > tfoot > tr > th.success, .table > thead > tr.success > td, .table > tbody > tr.success > td, .table > tfoot > tr.success > td, .table > thead > tr.success > th, .table > tbody > tr.success > th, .table > tfoot > tr.success > th{
+    background-color: hsla(34, 47%, 85%, 51);
+}
+
+.about {
+    padding-left: 20px;
+}
+td.about {
+    text-align: center;
 }
 
 /* Hide/rearrange for smaller screens */
